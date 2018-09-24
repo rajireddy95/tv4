@@ -114,7 +114,7 @@ As such, tv4 implements ["ban unknown properties" mode](https://github.com/json-
 ```javascript
 tv4.validate(data, schema, checkRecursive, true);
 tv4.validateResult(data, schema, checkRecursive, true);
-tv4.validateMultiple(data, schema, checkRecursive, true);
+tv4.validateMultiple(data, fullSchema, schemaName, checkRecursive, banUnknownProperties, nonEmptyArray);
 ```
 
 ## API
